@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import First from "./Hexa1st";
+import Second from "./Hexa2nd";
+import Third from "./Hexa3rd";
+import Fourth from "./Hexa4th";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <span>
+        <First></First>
+        <Second></Second>
+        <Third></Third>
+        <Fourth></Fourth>
+      </span>
     </div>
   );
 }
